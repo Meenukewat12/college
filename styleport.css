@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  padding: 15px;
+  background-color: burlywood;
+  width: 1000px;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+.sidebar nav {
+  padding: 20zpx;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  /*background-color: yellow;*/
+  width: 90vw;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+}
+.infocontainer {
+  /*background-color: palevioletred;*/
+  height: 50vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: monospace;
+}
+.hello {
+  font-size: 60px;
+}
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.about {
+  font-size: 20px;
+}
+.moreabout {
+  font-size: 15px;
+  margin-top: 23px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.buttons button {
+  padding: 8px 14px;
+  border-radius: 15px;
+  background-color: dodgerblue;
+  align-items: center;
+  color: white;
+  font-size: 11px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+.devpic img {
+  height: 50vh;
+}
+.contactform {
+  padding: 0 10px;
+  padding: 100px;
+  font-family: sans-serif;
+}
+.contactform h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 12px 0;
+}
+
+.contactform form div {
+  padding: 15px 0;
+  display: flex;
+  flex-direction: row;
+}
+.contactform form div input {
+  width: 16vw;
+  border-radius: 5px;
+  margin: 6px 0;
+  padding: 5px;
+}
+#emailHelp {
+  font-size: 8px;
+  color: midnightblue;
+  margin: 0 5px;
+}
+#form-check {
+  flex-direction: row;
+}
+#form-check input {
+  width: 24px;
+  margin: 3px 0;
+}
