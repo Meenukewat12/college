@@ -2,24 +2,21 @@
   margin: 0;
   padding: 0;
 }
+
 .sidebar {
   padding: 15px;
-  background-color: burlywood;
+  background-color: #ff6b6c;
   width: 1000px;
   font-family: Arial, sans-serif;
-  height: 100vh;
+  height: 150vh;
 }
-.sidebar nav {
-  padding: 20zpx;
-}
-.sidebar nav li {
-  list-style: none;
-  font-size: 30px;
-  padding: 33px 0;
-}
-.sidebar nav li a {
-  text-decoration: none;
-  color: black;
+
+
+.cartoon{
+  height: 70%;
+  width: 100%;
+  margin-top: 25%;
+  margin-left: none;
 }
 .main {
   /*background-color: yellow;*/
@@ -28,6 +25,7 @@
 }
 .container {
   display: flex;
+  background-color: darkgoldenrod;
 }
 .infocontainer {
   /*background-color: palevioletred;*/
@@ -36,13 +34,21 @@
   margin: 144px auto;
   display: flex;
   justify-content: space-around;
+
 }
 .devinfo {
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-family: monospace;
+
 }
+.devpic img {
+  height: 30vw;
+  width: 10vw;
+  display: flex;
+}
+
 .hello {
   font-size: 60px;
 }
@@ -75,9 +81,8 @@
   color: dodgerblue;
 }
 
-.devpic img {
-  height: 50vh;
-}
+
+
 .contactform {
   padding: 0 10px;
   padding: 100px;
@@ -86,6 +91,10 @@
 .contactform h1 {
   font-family: Arial, Helvetica, sans-serif;
   padding: 12px 0;
+  color: yellow;
+}
+.form-label {
+  color: brown;
 }
 
 .contactform form div {
@@ -100,7 +109,7 @@
   padding: 5px;
 }
 #emailHelp {
-  font-size: 8px;
+  font-size: 12px;
   color: midnightblue;
   margin: 0 5px;
 }
@@ -110,4 +119,146 @@
 #form-check input {
   width: 24px;
   margin: 3px 0;
+}
+.buttons1 {
+  padding: 8px 14px;
+  border-radius: 15px;
+  background-color: dodgerblue;
+  align-items: center;
+  color: white;
+  font-size: 11px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.buttons1:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+.blogitem {
+  margin: 50px;
+  font-family: monospace;
+}
+.blogcontainer h1 {
+  font-family: sans-serif;
+  margin: 30px;
+}
+.blogitem p {
+  font-family: Helvetica;
+  margin: 30px;
+}
+.button2 {
+  padding: 8px 14px;
+  border-radius: 15px;
+  background-color: dodgerblue;
+  align-items: center;
+  color: white;
+  font-size: 11px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.button2:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+h1 {
+  font-family: sans-serif;
+  margin: 25px;
+}
+
+p {
+  font-family: monospace;
+}
+
+h3 {
+  font-family: helvetica;
+  margin: 25px;
+}
+.skillItems {
+  display: flex;
+  align-items: center;
+}
+.skill {
+  width: 265px;
+  height: 5px;
+  background-color: red;
+  border: 2px solid black;
+}
+.skillCss {
+  width: 300px;
+  height: 5px;
+  background-color: yellow;
+  border: 2px solid black;
+}
+.skillJs {
+  width: 200px;
+  height: 5px;
+  background-color: green;
+  border: 2px solid black;
+}
+.skillReact {
+  width: 150px;
+  height: 5px;
+  background-color: brown;
+  border: 2px solid black;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.service {
+  margin: 40px 0;
+}
+
+.service h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+.service p {
+  font-size: 16px;
+  margin: 20px;
+}
+
+@media (max-width: 1615px){
+ 
+.sidebar{
+    
+      transform: translate: (-443px,0px);
+      
+    position: relative;
+  }
 }
